@@ -1,0 +1,607 @@
+{
+  "id": "campus-demo",
+  "name": "Northbridge University — Examination Operations",
+  "semester": "Autumn 2026",
+  "description": "University examination planning workspace. All example student, instructor and venue records are fictional.",
+  "courses": [
+    {
+      "id": "CS501",
+      "name": "Design and Analysis of Algorithms",
+      "instructor": "T01",
+      "students": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40"
+      ],
+      "requires": [
+        "projector"
+      ],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS502",
+      "name": "Database Management Systems",
+      "instructor": "T02",
+      "students": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56"
+      ],
+      "requires": [],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS503",
+      "name": "Artificial Intelligence",
+      "instructor": "T03",
+      "students": [
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66"
+      ],
+      "requires": [
+        "projector"
+      ],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS504",
+      "name": "Computer Networks",
+      "instructor": "T04",
+      "students": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S67",
+        "S68",
+        "S69",
+        "S70"
+      ],
+      "requires": [],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS505",
+      "name": "Python Programming Lab",
+      "instructor": "T05",
+      "students": [
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S71",
+        "S72",
+        "S73",
+        "S74"
+      ],
+      "requires": [
+        "lab"
+      ],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS506",
+      "name": "Software Engineering",
+      "instructor": "T01",
+      "students": [
+        "S01",
+        "S03",
+        "S05",
+        "S07",
+        "S09",
+        "S11",
+        "S13",
+        "S15",
+        "S17",
+        "S19",
+        "S21",
+        "S23",
+        "S25",
+        "S27",
+        "S29",
+        "S31",
+        "S33",
+        "S35",
+        "S37",
+        "S39",
+        "S67",
+        "S68"
+      ],
+      "requires": [],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS507",
+      "name": "Cloud Computing",
+      "instructor": "T06",
+      "students": [
+        "S02",
+        "S04",
+        "S06",
+        "S08",
+        "S10",
+        "S12",
+        "S14",
+        "S16",
+        "S18",
+        "S20",
+        "S22",
+        "S24",
+        "S26",
+        "S28",
+        "S30",
+        "S32",
+        "S34",
+        "S36",
+        "S38",
+        "S40",
+        "S71",
+        "S72",
+        "S73",
+        "S74"
+      ],
+      "requires": [
+        "projector"
+      ],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS508",
+      "name": "Cyber Security",
+      "instructor": "T07",
+      "students": [
+        "S41",
+        "S43",
+        "S45",
+        "S47",
+        "S49",
+        "S51",
+        "S53",
+        "S55",
+        "S57",
+        "S59",
+        "S61",
+        "S63",
+        "S65",
+        "S67",
+        "S69",
+        "S71",
+        "S73"
+      ],
+      "requires": [],
+      "department": "Computer Science"
+    },
+    {
+      "id": "CS509",
+      "name": "Data Visualization",
+      "instructor": "T08",
+      "students": [
+        "S42",
+        "S44",
+        "S46",
+        "S48",
+        "S50",
+        "S52",
+        "S54",
+        "S56",
+        "S58",
+        "S60",
+        "S62",
+        "S64",
+        "S66",
+        "S68",
+        "S70",
+        "S72",
+        "S74"
+      ],
+      "requires": [
+        "projector"
+      ],
+      "department": "Computer Science"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R101",
+      "name": "Aurora Lecture Hall",
+      "capacity": 65,
+      "features": [
+        "projector"
+      ]
+    },
+    {
+      "id": "R102",
+      "name": "Orion Auditorium",
+      "capacity": 90,
+      "features": [
+        "projector"
+      ]
+    },
+    {
+      "id": "R103",
+      "name": "Kepler Classroom",
+      "capacity": 45,
+      "features": []
+    },
+    {
+      "id": "LAB1",
+      "name": "Turing Computer Lab",
+      "capacity": 38,
+      "features": [
+        "lab",
+        "projector"
+      ]
+    },
+    {
+      "id": "R104",
+      "name": "Nova Smart Room",
+      "capacity": 50,
+      "features": [
+        "projector"
+      ]
+    }
+  ],
+  "timeslots": [
+    {
+      "id": "T1",
+      "date": "2026-12-07",
+      "start": "09:00",
+      "end": "12:00",
+      "label": "Mon · Morning"
+    },
+    {
+      "id": "T2",
+      "date": "2026-12-07",
+      "start": "13:00",
+      "end": "16:00",
+      "label": "Mon · Afternoon"
+    },
+    {
+      "id": "T3",
+      "date": "2026-12-08",
+      "start": "09:00",
+      "end": "12:00",
+      "label": "Tue · Morning"
+    },
+    {
+      "id": "T4",
+      "date": "2026-12-08",
+      "start": "13:00",
+      "end": "16:00",
+      "label": "Tue · Afternoon"
+    },
+    {
+      "id": "T5",
+      "date": "2026-12-09",
+      "start": "09:00",
+      "end": "12:00",
+      "label": "Wed · Morning"
+    },
+    {
+      "id": "T6",
+      "date": "2026-12-09",
+      "start": "13:00",
+      "end": "16:00",
+      "label": "Wed · Afternoon"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "T01",
+      "name": "Dr. Meera Rao",
+      "email": "t01@northbridge.example",
+      "department": "Computer Science",
+      "designation": "Professor",
+      "skills": [
+        "algorithms",
+        "programming"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T02",
+      "name": "Prof. Arjun Sen",
+      "email": "t02@northbridge.example",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "skills": [
+        "database",
+        "sql"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T03",
+      "name": "Dr. Kavya Shah",
+      "email": "t03@northbridge.example",
+      "department": "AI & Data Science",
+      "designation": "Associate Professor",
+      "skills": [
+        "ai",
+        "machine-learning"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T04",
+      "name": "Prof. Dev Khanna",
+      "email": "t04@northbridge.example",
+      "department": "Computer Science",
+      "designation": "Professor",
+      "skills": [
+        "networks",
+        "systems"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T05",
+      "name": "Dr. Nisha Verma",
+      "email": "t05@northbridge.example",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "skills": [
+        "python",
+        "lab"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T06",
+      "name": "Prof. Rohan Mehta",
+      "email": "t06@northbridge.example",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "skills": [
+        "software-engineering",
+        "web"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    },
+    {
+      "id": "T07",
+      "name": "Dr. Priya Kapoor",
+      "email": "t07@northbridge.example",
+      "department": "Cloud & Infrastructure",
+      "designation": "Professor",
+      "skills": [
+        "cloud",
+        "networks"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [
+        "T5"
+      ],
+      "active": true
+    },
+    {
+      "id": "T08",
+      "name": "Prof. Ishaan Bose",
+      "email": "t08@northbridge.example",
+      "department": "Cyber Security",
+      "designation": "Associate Professor",
+      "skills": [
+        "security",
+        "networks"
+      ],
+      "max_duties": 3,
+      "unavailable_slots": [],
+      "active": true
+    }
+  ],
+  "prerequisites": [
+    {
+      "before": "CS501",
+      "after": "CS503"
+    },
+    {
+      "before": "CS502",
+      "after": "CS507"
+    },
+    {
+      "before": "CS501",
+      "after": "CS508"
+    },
+    {
+      "before": "CS502",
+      "after": "CS509"
+    },
+    {
+      "before": "CS505",
+      "after": "CS509"
+    },
+    {
+      "before": "CS504",
+      "after": "CS508"
+    }
+  ],
+  "budget_items": [
+    {
+      "id": "B01",
+      "name": "Backup power for exam halls",
+      "cost": 18,
+      "value": 34
+    },
+    {
+      "id": "B02",
+      "name": "Accessible seating upgrades",
+      "cost": 12,
+      "value": 27
+    },
+    {
+      "id": "B03",
+      "name": "Extra network monitoring",
+      "cost": 11,
+      "value": 18
+    },
+    {
+      "id": "B04",
+      "name": "Digital signage",
+      "cost": 8,
+      "value": 15
+    },
+    {
+      "id": "B05",
+      "name": "Mobile equipment cart",
+      "cost": 15,
+      "value": 25
+    },
+    {
+      "id": "B06",
+      "name": "On-site technical support",
+      "cost": 10,
+      "value": 21
+    },
+    {
+      "id": "B07",
+      "name": "Spare projector set",
+      "cost": 7,
+      "value": 13
+    },
+    {
+      "id": "B08",
+      "name": "Emergency stationery kits",
+      "cost": 5,
+      "value": 10
+    }
+  ],
+  "exam_policy": {
+    "invigilators_per_exam": 1,
+    "prevent_own_course": true,
+    "balance_workload": true
+  }
+}

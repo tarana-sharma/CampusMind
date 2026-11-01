@@ -1,0 +1,1 @@
+"""CampusMind university scheduling API."""
